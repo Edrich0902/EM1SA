@@ -1,0 +1,106 @@
+{
+  "header": {
+    "title": "EM1SA",
+    "nav": [
+      { "label": "About", "href": "#about" },
+      { "label": "Benefits", "href": "#benefits" },
+      { "label": "Science", "href": "#features" },
+      { "label": "Usage", "href": "#usage" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  },
+  "hero": {
+    "title": "EM1SA",
+    "subtitle": "The Future of Regenerative Agriculture.",
+    "cta": "Explore the Science",
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2000&auto=format&fit=crop"
+  },
+  "stats": [
+    { "value": "100%", "label": "Organic & Natural" },
+    { "value": "50+", "label": "Countries Worldwide" },
+    { "value": "30yr+", "label": "Research & History" },
+    { "value": "∞", "label": "Sustainable Impact" }
+  ],
+  "about": {
+    "title": "Redefining Soil Vitality",
+    "content": [
+      "EM1SA is not just a product; it's a biological breakthrough. It harnesses the power of Effective Microorganisms to restore the natural balance of your soil, turning tired land into thriving ecosystems.",
+      "Our proprietary blend of lactic acid bacteria, yeast, and phototrophic bacteria works in perfect synergy to unlock nutrients and protect your crops from the ground up."
+    ],
+    "image": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?q=80&w=800&auto=format&fit=crop"
+  },
+  "benefits": {
+    "title": "Unrivaled Benefits",
+    "items": [
+      {
+        "icon": "pi-objects-column",
+        "title": "Soil Structure",
+        "description": "Dramatically improves aeration and moisture retention through natural aggregation."
+      },
+      {
+        "icon": "pi-chart-line",
+        "title": "Yield Optimization",
+        "description": "Maximizes genetic potential of crops by optimizing nutrient bioavailability."
+      },
+      {
+        "icon": "pi-shield",
+        "title": "Natural Immunity",
+        "description": "Strengthens plant defense mechanisms by suppressing soil-borne pathogens."
+      },
+      {
+        "icon": "pi-globe",
+        "title": "Eco-Regeneration",
+        "description": "Actively sequesters carbon and restores microbial diversity in degraded soils."
+      }
+    ]
+  },
+  "features": {
+    "title": "The EM Technology",
+    "items": [
+      {
+        "title": "Microbial Synergy",
+        "description": "A co-existing culture of diverse microorganisms that support each other's growth.",
+        "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?q=80&w=600&auto=format&fit=crop"
+      },
+      {
+        "title": "Antioxidant Power",
+        "description": "Suppresses oxidative stress in plants, leading to healthier and longer-lasting produce.",
+        "image": "https://images.unsplash.com/photo-1530836361253-ee65162fe305?q=80&w=600&auto=format&fit=crop"
+      }
+    ]
+  },
+  "usage": {
+    "title": "Precision Application",
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Activation Process",
+        "description": "Combine EM1SA with molasses and pure water to wake the dormant microorganisms."
+      },
+      {
+        "step": 2,
+        "title": "Soil Integration",
+        "description": "Apply during land preparation to establish a dominant beneficial microbial colony."
+      },
+      {
+        "step": 3,
+        "title": "Crop Maintenance",
+        "description": "Regular foliar applications ensure ongoing protection and nutrient absorption."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Transform Your Harvest?",
+    "subtitle": "Join thousands of farmers worldwide who have switched to sustainable microbial technology.",
+    "button": "Get Started Today"
+  },
+  "contact": {
+    "title": "Connect With Us",
+    "email": "hello@em1sa.co.za",
+    "phone": "+27 (0) 12 345 6789",
+    "address": "Agri-Innovation Hub, Pretoria, South Africa"
+  },
+  "footer": {
+    "text": "© 2026 EM1SA. Pioneering Regenerative Agriculture."
+  }
+}
