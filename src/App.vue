@@ -6,7 +6,9 @@ import siteData from '@/assets/content/site-data.json'
 import HeroSection from '@/components/HeroSection.vue'
 import AboutSection from '@/components/AboutSection.vue'
 import BenefitsSection from '@/components/BenefitsSection.vue'
+import ApplicationsSection from '@/components/ApplicationsSection.vue'
 import UsageSection from '@/components/UsageSection.vue'
+import TestimonialsSection from '@/components/TestimonialsSection.vue'
 import ContactSection from '@/components/ContactSection.vue'
 import CustomCursor from '@/components/CustomCursor.vue'
 
@@ -161,6 +163,8 @@ onUnmounted(() => {
 
       <BenefitsSection :data="siteData.benefits" />
 
+      <ApplicationsSection :data="siteData.applications" />
+
       <!-- Features/Science Section -->
       <section id="features" class="py-32 bg-zinc-950 text-white overflow-hidden">
         <div class="container mx-auto px-6">
@@ -195,6 +199,8 @@ onUnmounted(() => {
 
       <UsageSection :data="siteData.usage" />
 
+      <TestimonialsSection :data="siteData.testimonials" />
+
       <!-- CTA Section -->
       <section class="py-32 relative overflow-hidden bg-emerald-600">
         <div
@@ -209,11 +215,12 @@ onUnmounted(() => {
           >
             {{ siteData.cta.subtitle }}
           </p>
-          <button
-            class="bg-white text-emerald-600 hover:bg-zinc-100 px-12 py-5 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-110 shadow-2xl"
+          <a
+            :href="`mailto:${siteData.contact.email}`"
+            class="inline-block bg-white text-emerald-600 hover:bg-zinc-100 px-12 py-5 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-110 shadow-2xl"
           >
             {{ siteData.cta.button }}
-          </button>
+          </a>
         </div>
       </section>
     </main>

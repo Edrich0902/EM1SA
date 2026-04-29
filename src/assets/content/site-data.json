@@ -4,14 +4,15 @@
     "nav": [
       { "label": "About", "href": "#about" },
       { "label": "Benefits", "href": "#benefits" },
-      { "label": "Science", "href": "#features" },
+      { "label": "Applications", "href": "#applications" },
+      { "label": "Technology", "href": "#features" },
       { "label": "Usage", "href": "#usage" },
       { "label": "Contact", "href": "#contact" }
     ]
   },
   "hero": {
     "title": "EM1SA",
-    "subtitle": "The Future of Regenerative Agriculture.",
+    "subtitle": "The Future of Regenerative Agriculture and Animal Health.",
     "cta": "Explore the Science",
     "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2000&auto=format&fit=crop"
   },
@@ -22,10 +23,10 @@
     { "value": "∞", "label": "Sustainable Impact" }
   ],
   "about": {
-    "title": "Redefining Soil Vitality",
+    "title": "Redefining Biological Vitality",
     "content": [
-      "EM1SA is not just a product; it's a biological breakthrough. It harnesses the power of Effective Microorganisms to restore the natural balance of your soil, turning tired land into thriving ecosystems.",
-      "Our proprietary blend of lactic acid bacteria, yeast, and phototrophic bacteria works in perfect synergy to unlock nutrients and protect your crops from the ground up."
+      "EM1 is not just a product; it's a biological breakthrough. It harnesses the power of Effective Microorganisms to restore natural balance, whether in the soil or as a probiotic for animal health, turning environments into thriving ecosystems.",
+      "Our proprietary blend of lactic acid bacteria, yeast, and phototrophic bacteria works in perfect synergy to unlock nutrients, improve livestock digestion, and protect your biological assets from the ground up."
     ],
     "image": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?q=80&w=800&auto=format&fit=crop"
   },
@@ -39,18 +40,48 @@
       },
       {
         "icon": "pi-chart-line",
-        "title": "Yield Optimization",
-        "description": "Maximizes genetic potential of crops by optimizing nutrient bioavailability."
+        "title": "Biological Performance",
+        "description": "Maximizes the genetic potential of both crops and livestock by optimizing nutrient bioavailability."
       },
       {
         "icon": "pi-shield",
-        "title": "Natural Immunity",
-        "description": "Strengthens plant defense mechanisms by suppressing soil-borne pathogens."
+        "title": "Holistic Immunity",
+        "description": "Strengthens defense mechanisms in plants and animals by establishing a dominant beneficial microbial colony."
       },
       {
         "icon": "pi-globe",
         "title": "Eco-Regeneration",
-        "description": "Actively sequesters carbon and restores microbial diversity in degraded soils."
+        "description": "Actively sequesters carbon and restores microbial diversity in degraded ecosystems."
+      }
+    ]
+  },
+  "applications": {
+    "title": "Versatile Applications",
+    "items": [
+      {
+        "title": "Agriculture",
+        "icon": "pi-sun",
+        "description": "Transform soil health and maximize crop yields through natural microbial activation."
+      },
+      {
+        "title": "Animal Husbandry",
+        "icon": "pi-heart",
+        "description": "Improve livestock digestion, immunity, and environment hygiene with probiotic technology."
+      },
+      {
+        "title": "Environmental",
+        "icon": "pi-filter",
+        "description": "Natural water purification, odor control, and sludge reduction in industrial systems."
+      },
+      {
+        "title": "Composting",
+        "icon": "pi-refresh",
+        "description": "Accelerate organic waste fermentation while preventing putrefaction and nutrient loss."
+      },
+      {
+        "title": "Home & Garden",
+        "icon": "pi-home",
+        "description": "Eco-friendly solutions for household cleaning, pet odors, and lush residential gardens."
       }
     ]
   },
@@ -64,8 +95,8 @@
       },
       {
         "title": "Antioxidant Power",
-        "description": "Suppresses oxidative stress in plants, leading to healthier and longer-lasting produce.",
-        "image": "https://images.unsplash.com/photo-1530836361253-ee65162fe305?q=80&w=600&auto=format&fit=crop"
+        "description": "Suppresses oxidative stress in organisms, leading to healthier and more resilient results.",
+        "image": "https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?q=80&w=800&auto=format&fit=crop"
       }
     ]
   },
@@ -75,7 +106,7 @@
       {
         "step": 1,
         "title": "Activation Process",
-        "description": "Combine EM1SA with molasses and pure water to wake the dormant microorganisms."
+        "description": "Combine EM1 with pure water to wake the dormant microorganisms."
       },
       {
         "step": 2,
@@ -86,21 +117,46 @@
         "step": 3,
         "title": "Crop Maintenance",
         "description": "Regular foliar applications ensure ongoing protection and nutrient absorption."
+      },
+      {
+        "step": 4,
+        "title": "Animal Health",
+        "description": "Incorporate into drinking water or feed to enhance gut health and improve feed conversion ratios."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Trusted by Experts",
+    "items": [
+      {
+        "name": "Marlize",
+        "role": "Group Financial Manager",
+        "content": "I applied the EM1 foliar spray to the plants in my office after the December holiday break. Great results at low cost."
+      },
+      {
+        "name": "Francios K",
+        "role": "Bull Terrier Dog Breeder",
+        "content": "I added animal probiotics as a food supplement for my dog. Itchy skin and rash disappeared within a week."
+      },
+      {
+        "name": "Lourens",
+        "role": "Local Canola farmer",
+        "content": "The fermentation is amazing and their service and after sale support is great. Prices are unbeatable. I always know I'm getting a good deal."
       }
     ]
   },
   "cta": {
-    "title": "Ready to Transform Your Harvest?",
-    "subtitle": "Join thousands of farmers worldwide who have switched to sustainable microbial technology.",
+    "title": "Ready to Transform Your Yield?",
+    "subtitle": "Join thousands of farmers and livestock producers worldwide who have switched to sustainable EM technology.",
     "button": "Get Started Today"
   },
   "contact": {
     "title": "Connect With Us",
-    "email": "hello@em1sa.co.za",
-    "phone": "+27 (0) 12 345 6789",
-    "address": "Agri-Innovation Hub, Pretoria, South Africa"
+    "email": "em1sahq@gmail.com",
+    "phone": "+27 (0) 72 437 9051",
+    "address": "Paarl, Western Cape, South Africa"
   },
   "footer": {
-    "text": "© 2026 EM1SA. Pioneering Regenerative Agriculture."
+    "text": "© 2026 EM1SA. Pioneering Biological Vitality."
   }
 }

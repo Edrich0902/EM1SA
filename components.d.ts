@@ -12,6 +12,7 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AboutSection: typeof import('./src/components/AboutSection.vue')['default']
+    ApplicationsSection: typeof import('./src/components/ApplicationsSection.vue')['default']
     BenefitsSection: typeof import('./src/components/BenefitsSection.vue')['default']
     ContactSection: typeof import('./src/components/ContactSection.vue')['default']
     CustomCursor: typeof import('./src/components/CustomCursor.vue')['default']
@@ -19,6 +20,7 @@ declare module 'vue' {
     HeroSection: typeof import('./src/components/HeroSection.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    TestimonialsSection: typeof import('./src/components/TestimonialsSection.vue')['default']
     UsageSection: typeof import('./src/components/UsageSection.vue')['default']
   }
 }

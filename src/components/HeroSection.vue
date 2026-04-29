@@ -15,11 +15,15 @@ defineProps<{
   }
 }>()
 
-const heroRef = ref(null)
-const titleRef = ref(null)
-const bgRef = ref(null)
+const heroRef = ref<HTMLElement | null>(null)
+const titleRef = ref<HTMLElement | null>(null)
+const bgRef = ref<HTMLElement | null>(null)
+const subtitleRef = ref<HTMLElement | null>(null)
+const ctaRef = ref<HTMLElement | null>(null)
 
 onMounted(() => {
+  if (!heroRef.value || !titleRef.value || !bgRef.value) return
+
   // Parallax Background
   gsap.to(bgRef.value, {
     yPercent: 30,
@@ -33,19 +37,47 @@ onMounted(() => {
   })
 
   // Staggered Title Reveal
-  const words = titleRef.value.innerText.split(' ')
+  const text = titleRef.value.innerText
+  const words = text.split(' ')
   titleRef.value.innerHTML = words
     .map((word) => `<span class="inline-block opacity-0 translate-y-10">${word}&nbsp;</span>`)
     .join('')
 
-  gsap.to(titleRef.value.children, {
+  const tl = gsap.timeline({ delay: 0.5 })
+
+  tl.to(titleRef.value.children, {
     opacity: 1,
     y: 0,
     duration: 1,
     stagger: 0.2,
     ease: 'power4.out',
-    delay: 0.5,
   })
+
+  if (subtitleRef.value) {
+    tl.to(
+      subtitleRef.value,
+      {
+        opacity: 0.8,
+        y: 0,
+        duration: 1,
+        ease: 'power4.out',
+      },
+      '-=0.6',
+    )
+  }
+
+  if (ctaRef.value) {
+    tl.to(
+      ctaRef.value,
+      {
+        opacity: 1,
+        y: 0,
+        duration: 1,
+        ease: 'power4.out',
+      },
+      '-=0.8',
+    )
+  }
 })
 </script>
 
@@ -77,12 +109,12 @@ onMounted(() => {
         {{ data.title }}
       </h1>
       <p
-        class="text-xl md:text-2xl mb-12 font-light max-w-2xl mx-auto opacity-80 leading-relaxed reveal"
-        style="transition-delay: 800ms"
+        ref="subtitleRef"
+        class="text-xl md:text-2xl mb-12 font-light max-w-2xl mx-auto leading-relaxed opacity-0 translate-y-10"
       >
         {{ data.subtitle }}
       </p>
-      <div class="reveal" style="transition-delay: 1000ms">
+      <div ref="ctaRef" class="opacity-0 translate-y-10">
         <a
           href="#about"
           class="clickable inline-block px-10 py-5 bg-emerald-600 hover:bg-emerald-500 text-white rounded-full font-bold transition-all duration-300 transform hover:scale-105 shadow-[0_0_30px_rgba(16,185,129,0.4)]"
